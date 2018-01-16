@@ -1,0 +1,17 @@
+
+<div>
+  <div class = "card-style text-center" *ngFor = 'let employee of employees' (click)="getID(employee.ID)">
+      
+        
+        <div class = "text-center">
+          <img src = '{{ employee.Avatar }}'
+          class = "img-style">
+          <br>
+          <label>{{ employee.FirstName }}</label>
+          <br>
+          <label>{{ employee.Department }}</label>
+        </div>
+      
+      
+    </div>
+</div>

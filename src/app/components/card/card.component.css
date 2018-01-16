@@ -1,0 +1,16 @@
+.card-style{
+    margin: 30px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #6ED0F0;
+    width: 213.96px;
+    height: 217.76px;
+}
+
+.img-style{
+    border: 1px solid #6ED0F0;
+    margin: 25px;
+    width:118.3px;
+    height: 116.21px;
+    border-radius: 56px;
+}

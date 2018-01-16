@@ -1,0 +1,30 @@
+.pp{
+    border-right: 1px solid #6ED0F0;
+    height: 90%;
+}
+
+.picture{
+    margin-top: 30%;
+    margin-bottom: 90%;
+}
+
+.img-style{
+    border: 1px solid #6ED0F0;
+    margin: 25px;
+    width:322px;
+    height: 322px;
+    border-radius: 161px;
+}
+
+.label-user{
+    font-size: 64px;
+}
+
+.body{
+    margin: 10%;
+}
+
+.label-body{
+    margin-top: 10px;
+    font-size: 30px;
+}

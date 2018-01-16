@@ -1,0 +1,29 @@
+<p>
+  profile works!
+</p>
+
+<div class = "row">
+  <div class = "col-md-4 pp">
+    <div class = "text-center picture">
+        <img src = '{{ employees.Avatar }}'
+        class = "img-style">
+        <br>
+        
+        <label class = "label-user">{{ employees.Username }}</label>
+    </div>
+    
+  </div>
+  <div class = "col-md-8 ">
+    <div class = "body">
+      <label class = "label-body">Gender: {{ employees.Gender }}</label>
+      <br>
+      <label class = "label-body">FirstName: {{ employees.FirstName }}</label>
+      <br>
+      <label class = "label-body">LastName: {{ employees.LastName }}</label>
+      <br>
+      <label class = "label-body">Department: {{ employees.Department }}</label>
+      <br>
+      <label class = "label-body">Email: {{ employees.Email }}</label>
+    </div>
+  </div>
+</div>
